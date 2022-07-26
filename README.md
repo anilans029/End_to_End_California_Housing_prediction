@@ -10,3 +10,8 @@ This repo is containing a ML project
 3.[Vs code IDE](https://code.visualstudio.com/download)
 
 4.[Git cli](https://git-scm.com/downloads)
+
+### Creating conda environment
+'''bash
+conda create -n  env_name python==3.7
+'''
