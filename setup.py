@@ -1,4 +1,6 @@
 import setuptools
+from setuptools import find_packages
+
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -15,7 +17,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
-    packages=["Housing"],
+    packages=find_packages(),
     python_requires=">=3.7",
     install_requires=[
         'dvc',
