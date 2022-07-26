@@ -12,6 +12,6 @@ This repo is containing a ML project
 4.[Git cli](https://git-scm.com/downloads)
 
 ### Creating conda environment
-'''bash
+```
 conda create -n  env_name python==3.7
-'''
+```
