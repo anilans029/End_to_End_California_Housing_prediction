@@ -3,10 +3,10 @@ This repo is containing a ML project
 
 ## software and account Requirements:
 
-[Github account](https://github.com/) 
+1.[Github account](https://github.com/) 
 
-[Heroku Account](https://www.heroku.com/)
+2.[Heroku Account](https://www.heroku.com/)
 
-[Vs code IDE](https://code.visualstudio.com/download)
+3.[Vs code IDE](https://code.visualstudio.com/download)
 
-[Git cli](https://git-scm.com/downloads)
+4.[Git cli](https://git-scm.com/downloads)
