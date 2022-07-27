@@ -4,7 +4,7 @@ import os
 from re import L
 
 LOG_DIR = "housing_logs"
-CURRENT_TIMEsTAMP= f"{datetime.now().strftime('%Y-%m-%d_%H-%H-%S')}"
+CURRENT_TIMEsTAMP= f"{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
 LOG_FILE_NAME = f"log_{CURRENT_TIMEsTAMP}.log"
 
 os.makedirs(LOG_DIR, exist_ok=True)
